@@ -1,0 +1,1247 @@
+.wrapper {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: -1px
+}
+
+.wrapper .main-container {
+    margin: 0;
+    height: auto;
+    overflow: hidden;
+    word-wrap: break-word;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+.wrapper .main-container.headerimage {
+    padding-top: 0
+}
+
+.wrapper .main-container .content.main {
+    margin: 0 6%;
+    position: relative;
+    width: 88%;
+    background: #fff
+}
+
+.wrapper,
+#footer-section {
+    top: 69.5px
+}
+
+header.lang-display~div.wrapper,
+header.lang-display~#footer-section {
+    top: 97px
+}
+
+.wrapper .main-container .content.main {
+    margin: 0 2%;
+    width: 96%
+}
+
+header.lang-display~div.wrapper,
+header.lang-display~#footer-section {
+    top: 0
+}
+
+.wrapper .introduction-copy:empty {
+    padding: 0
+}
+
+@media screen and (max-width:768px) {
+    .wrapper .main-container.internal-search-page {
+        padding-top: 0;
+        margin-bottom: 10px
+    }
+
+}
+
+.wrapper.home-page {
+    max-width: 100%
+}
+
+.wrapper .main-container.home-page {
+    padding-bottom: 15px
+}
+
+.wrapper .main-container.home-page .content.main {
+    background: transparent;
+    max-width: 1220px;
+    width: 100%;
+    margin: auto
+}
+
+.wrapper .main-container.home-page .content.main #home-featured .standardpromo.empty-column,
+.wrapper .main-container.home-page .content.main #home-featured .featuredpromo.empty-column {
+    background: transparent;
+    margin-bottom: 0 !important
+}
+
+.wrapper .main-container.home-page .content.main #main-featured-trending.table-frame {
+    margin: 0 0 7px
+}
+
+.wrapper .main-container.home-page .content.main button.see-more-btn {
+    width: 40%;
+    margin: 7px auto 0 auto;
+    background: #fff;
+    border: 2px solid #0076a8;
+    /*font-size: 1.6em;*/
+    min-height: 50px;
+    color: #0076a8
+}
+
+.wrapper .main-container.home-page .content.main button.see-more-btn:focus {
+    outline: thin dotted
+}
+
+.wrapper .main-container.home-page .content.main button.see-more-btn a {
+    padding: 0
+}
+
+.wrapper .main-container.home-page .content.main button.see-more-btn:hover {
+    background: #0076a8;
+    border: 2px solid #0076a8;
+    color: #fff
+}
+
+.wrapper .main-container.home-page .content.main button.see-more-btn:hover a {
+    color: #fff
+}
+
+@media screen and (max-width:767px) {
+    .wrapper .main-container.home-page {
+        padding: 15px
+    }
+
+    .wrapper .main-container.home-page .content.main #main-featured-trending.table-frame {
+        margin: 0
+    }
+
+    .wrapper .main-container.home-page .content.main button.see-more-btn {
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: 15px
+    }
+}
+
+.get-in-touch .content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.get-in-touch .content ul {
+    list-style-type: disc
+}
+
+.get-in-touch .content ol {
+    list-style-type: decimal
+}
+
+.get-in-touch .content .get-in-touch-rich-text {
+    /*font-size: 1.4em;*/
+    color: #000;
+    font-weight: 400;
+    padding-bottom: 8%
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+    .topic-page .main-container.topic-page-content,
+    .topic-page .get-in-touch .content {
+        width: 96%
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper.profile-page .employee-profile-panel {
+    margin: 0 auto 20px;
+    padding: 30px 0;
+    background: #fff;
+    border-top: 8px solid #4d25bc
+}
+
+.wrapper.profile-page .employee-profile-container {
+    width: 90%;
+    margin: 0 auto
+}
+
+.wrapper.profile-page .employee-profile-container h2.secondary-headline {
+    /*font-size: 2.4em;*/
+    color: #53565a;
+    margin-bottom: 0
+}
+
+.wrapper.profile-page .employee-profile-container h2.secondary-headline span.role1 {
+    border-right: 2px solid #53565a;
+    padding-right: 1em;
+    margin-right: 1em
+}
+
+.wrapper.profile-page .employee-profile-container h2.secondary-headline span.role1.no-pipe {
+    border-right: 0
+}
+
+.wrapper.profile-page .employee-profile-container h2.secondary-headline span.role2 {
+    padding-left: 0
+}
+
+.wrapper.profile-page .employee-profile-container h3.tertiary-headline {
+    color: #53565a;
+    font-weight: 500
+}
+
+.wrapper.profile-page .main-container {
+    padding-top: 30px
+}
+
+.wrapper.profile-page .main-container .content.main {
+    background: 0
+}
+
+.wrapper.profile-page .main-container .content.main h1 {
+    margin-bottom: 0
+}
+
+.wrapper.profile-page .main-container .content.main .employee-information p {
+    /*font-size: 1.4em*/
+}
+
+.wrapper.profile-page .sub-container .secondary-headline,
+.wrapper.profile-page .employee-recommendation .secondary-headline {
+    margin: 0
+}
+
+.wrapper.profile-page .sub-container hr,
+.wrapper.profile-page .employee-recommendation hr {
+    border: 0;
+    border-bottom: 1px solid #97999b
+}
+
+.wrapper.profile-page .sub-container.featured-and-standard-promos .col-100 .col-70 a.promo-focus .featured-promo,
+.wrapper.profile-page .employee-recommendation.featured-and-standard-promos .col-100 .col-70 a.promo-focus .featured-promo,
+.wrapper.profile-page .sub-container .standard-promos-only .col-100 .col-70 a.promo-focus .featured-promo,
+.wrapper.profile-page .employee-recommendation .standard-promos-only .col-100 .col-70 a.promo-focus .featured-promo,
+.wrapper.profile-page .sub-container.featured-and-standard-promos .col-100 .col-30 a.promo-focus .featured-promo,
+.wrapper.profile-page .employee-recommendation.featured-and-standard-promos .col-100 .col-30 a.promo-focus .featured-promo,
+.wrapper.profile-page .sub-container .standard-promos-only .col-100 .col-30 a.promo-focus .featured-promo,
+.wrapper.profile-page .employee-recommendation .standard-promos-only .col-100 .col-30 a.promo-focus .featured-promo,
+.wrapper.profile-page .sub-container.featured-and-standard-promos .col-100 .col-70 a.promo-focus .standard-promo,
+.wrapper.profile-page .employee-recommendation.featured-and-standard-promos .col-100 .col-70 a.promo-focus .standard-promo,
+.wrapper.profile-page .sub-container .standard-promos-only .col-100 .col-70 a.promo-focus .standard-promo,
+.wrapper.profile-page .employee-recommendation .standard-promos-only .col-100 .col-70 a.promo-focus .standard-promo,
+.wrapper.profile-page .sub-container.featured-and-standard-promos .col-100 .col-30 a.promo-focus .standard-promo,
+.wrapper.profile-page .employee-recommendation.featured-and-standard-promos .col-100 .col-30 a.promo-focus .standard-promo,
+.wrapper.profile-page .sub-container .standard-promos-only .col-100 .col-30 a.promo-focus .standard-promo,
+.wrapper.profile-page .employee-recommendation .standard-promos-only .col-100 .col-30 a.promo-focus .standard-promo {
+    margin-top: 15px
+}
+
+.wrapper.profile-page .sub-container.featured-and-standard-promos .col-100 .col-70 a.promo-focus .featured-promo,
+.wrapper.profile-page .employee-recommendation.featured-and-standard-promos .col-100 .col-70 a.promo-focus .featured-promo,
+.wrapper.profile-page .sub-container .standard-promos-only .col-100 .col-70 a.promo-focus .featured-promo,
+.wrapper.profile-page .employee-recommendation .standard-promos-only .col-100 .col-70 a.promo-focus .featured-promo,
+.wrapper.profile-page .sub-container.featured-and-standard-promos .col-100 .col-30 a.promo-focus .featured-promo,
+.wrapper.profile-page .employee-recommendation.featured-and-standard-promos .col-100 .col-30 a.promo-focus .featured-promo,
+.wrapper.profile-page .sub-container .standard-promos-only .col-100 .col-30 a.promo-focus .featured-promo,
+.wrapper.profile-page .employee-recommendation .standard-promos-only .col-100 .col-30 a.promo-focus .featured-promo {
+    vertical-align: inherit
+}
+
+.wrapper.profile-page .sub-container .col-70 .featured-promo .description,
+.wrapper.profile-page .employee-recommendation .col-70 .featured-promo .description {
+    max-height: 2.8em;
+    overflow: hidden
+}
+
+.wrapper.profile-page .main-col .employee-mobile-content {
+    display: none
+}
+
+@media only screen and (max-width:767px) {
+    .wrapper.profile-page .main-col .employee-mobile-content .profile-image {
+        display: block
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .wrapper.profile-page .main-col .employee-mobile-content .contact-list {
+        display: block
+    }
+}
+
+.wrapper.profile-page .main-col ul {
+    list-style-type: disc
+}
+
+.wrapper.profile-page .main-col ol {
+    list-style-type: decimal
+}
+
+.wrapper.profile-page .side-col .profile-image {
+    display: block;
+    margin-bottom: 10px
+}
+
+.wrapper.profile-page .side-col .profile-image img {
+    width: 100%
+}
+
+@media only screen and (max-width:767px) {
+    .wrapper.profile-page .side-col .profiles-image {
+        display: none
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .wrapper.profile-page .side-col .contact-list {
+        display: none
+    }
+}
+
+.wrapper.profile-page .contact-links-wrapper {
+    border-top: 1px solid #d0d0ce;
+    border-bottom: 1px solid #d0d0ce;
+    overflow: hidden;
+    padding: 2% 0
+}
+
+.wrapper.profile-page .contact-links {
+    float: left;
+    width: 70%;
+    /*font-size: 1.4em;*/
+    display: inline
+}
+
+.wrapper.profile-page .contact-links.social-icons {
+    float: right;
+    width: 30%;
+    padding-left: 15px;
+    border-left: 1px solid #d0d0ce
+}
+
+.wrapper.profile-page .contact-links.social-icons.spacer {
+    float: none;
+    width: 100%;
+    padding-left: 0;
+    border-left: 0
+}
+
+.wrapper.profile-page .contact-links li {
+    display: inline-block;
+    margin: 0;
+    margin-right: 10px
+}
+
+.wrapper.profile-page .contact-links li.spacer {
+    display: none
+}
+
+.wrapper.profile-page .contact-links .float-right {
+    float: right
+}
+
+@media only screen and (max-width:767px) {
+    .wrapper.profile-page .contact-links .float-right {
+        float: none
+    }
+}
+
+.wrapper.profile-page .contact-links .icon {
+    color: #707377;
+    border-radius: 50%;
+    border: 1px solid #707377;
+    height: 32px;
+    text-align: center;
+    width: 32px;
+    display: table-cell;
+    vertical-align: middle
+}
+
+.wrapper.profile-page .contact-links .icon:before {
+    line-height: 2.2em
+}
+
+.wrapper.profile-page .contact-links .icon-whatsapp {
+    display: none
+}
+
+@media only screen and (max-width:767px) {
+    .wrapper.profile-page .contact-links .icon-whatsapp {
+        display: table-cell
+    }
+}
+
+.wrapper.profile-page .contact-links .icon-email+a {
+    font-weight: bold;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 5px
+}
+
+.wrapper.profile-page .contact-links .icon-email+a:hover {
+    text-decoration: underline
+}
+
+.wrapper.profile-page .contact-links .telephone-btn {
+    color: #000;
+    font-weight: 700;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 5px
+}
+
+.wrapper.profile-page .contact-info,
+.wrapper.profile-page .employee-information {
+    margin-top: 15px;
+    margin-bottom: 20px
+}
+
+.wrapper.profile-page .contact-info .body-copy,
+.wrapper.profile-page .employee-information .body-copy {
+    margin-bottom: 0
+}
+
+.wrapper.profile-page .contact-info a.body-copy,
+.wrapper.profile-page .employee-information a.body-copy {
+    /*font-size: 1em*/
+}
+
+.wrapper.profile-page .contact-info p,
+.wrapper.profile-page .employee-information p {
+    line-height: 1.6em
+}
+
+.wrapper.profile-page .contact-info a:hover,
+.wrapper.profile-page .employee-information a:hover {
+    text-decoration: underline
+}
+
+.wrapper.profile-page .employee-information p span:before {
+    content: "\f041";
+    padding-right: 4px;
+    font-family: 'Dcom-EDE' !important;
+    color: #97999b
+}
+
+.wrapper.profile-page .related-topics {
+    margin-top: 40px;
+    margin-bottom: 20px
+}
+
+.wrapper.profile-page .related-topics ul li {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #e8eae9;
+    margin: 5px 5px 5px 0
+}
+
+.wrapper.profile-page .related-topics ul li a {
+    color: #000
+}
+
+.wrapper.profile-page .related-topics ul li a:hover,
+.wrapper.profile-page .related-topics ul li a:focus,
+.wrapper.profile-page .related-topics ul li a:active {
+    text-decoration: none
+}
+
+.wrapper.profile-page .related-topics ul li:first-of-type {
+    margin-left: 0
+}
+
+@media only screen and (max-width:767px) {
+    .wrapper.profile-page .related-topics ul li {
+        margin-left: 0
+    }
+}
+
+.wrapper.profile-page .twitter-component {
+    border: 1px solid #e6e9e9;
+    padding: 20px 10px
+}
+
+.wrapper.profile-page .twitter-component h3 {
+    /*font-size: 1.8em;*/
+    font-weight: 400
+}
+
+.wrapper.profile-page .tier {
+    margin-left: -15px;
+    margin-right: -15px;
+    box-sizing: border-box
+}
+
+.wrapper.profile-page .tier * {
+    box-sizing: border-box
+}
+
+.wrapper.profile-page .tier:before,
+.wrapper.profile-page .tier:after {
+    content: " ";
+    display: table
+}
+
+.wrapper.profile-page .tier:after {
+    clear: both
+}
+
+.wrapper.profile-page .col-100 {
+    width: 100%
+}
+
+.wrapper.profile-page .col-90 {
+    width: 67%
+}
+
+.wrapper.profile-page .col-70 {
+    width: 66.66667%
+}
+
+.wrapper.profile-page .col-50 {
+    width: 50%
+}
+
+.wrapper.profile-page .col-30 {
+    width: 33.33333%
+}
+
+.wrapper.profile-page .col-10 {
+    width: 27%
+}
+
+.wrapper.profile-page .col-10.side-col {
+    float: right
+}
+
+.wrapper.profile-page .col-100,
+.wrapper.profile-page .col-90,
+.wrapper.profile-page .col-70,
+.wrapper.profile-page .col-50,
+.wrapper.profile-page .col-30,
+.wrapper.profile-page .col-10 {
+    display: block;
+    position: relative;
+    min-height: 1px;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.wrapper.profile-page .col-100.table-offset,
+.wrapper.profile-page .col-90.table-offset,
+.wrapper.profile-page .col-70.table-offset,
+.wrapper.profile-page .col-50.table-offset,
+.wrapper.profile-page .col-30.table-offset,
+.wrapper.profile-page .col-10.table-offset {
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+@media only screen and (max-width:767px) {
+
+    .wrapper.profile-page .col-100,
+    .wrapper.profile-page .col-90,
+    .wrapper.profile-page .col-70,
+    .wrapper.profile-page .col-50,
+    .wrapper.profile-page .col-30,
+    .wrapper.profile-page .col-10 {
+        width: 100%;
+        padding-left: 25px;
+        padding-right: 25px
+    }
+}
+
+.profile-page .social-panel {
+    padding: 0;
+    margin: 0;
+    border: 0
+}
+
+.profile-page .social-panel .tweet-group {
+    float: none;
+    width: 100%;
+    border: solid 0 #d0d0ce !important;
+    position: relative
+}
+
+.profile-page .social-panel .tweet-group .twitt-iframe {
+    height: 300px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden
+}
+
+.profile-page .social-panel .tweet-group .twitt-iframe a,
+.profile-page .social-panel .tweet-group .twitt-iframe a:hover {
+    color: #00a3e0
+}
+
+.profile-page .social-panel .tweet-group i {
+    display: none
+}
+
+.profile-page .social-panel .tweet-group iframe#twitter-widget-0 {
+    float: none;
+    max-width: 100% !important
+}
+
+.profile-page .social-panel .content-group {
+    float: none;
+    width: auto
+}
+
+:lang(zh-hant) .wrapper.profile-page .main-container p,
+:lang(zh-hans) .wrapper.profile-page .main-container p,
+:lang(zh-hant) .wrapper.profile-page .main-container li,
+:lang(zh-hans) .wrapper.profile-page .main-container li {
+    /*font-size: .9em*/
+}
+
+:lang(zh-hant) .body-copy,
+:lang(zh-hans) .body-copy {
+    /*font-size: 1.5em*/
+}
+
+:lang(zh-hant) .employee-desc,
+:lang(zh-hans) .employee-desc {
+    /*font-size: 1.5em*/
+}
+
+:lang(ja) .twitter-component h3 {
+    /*font-size: 2.2em*/
+}
+
+:lang(ja) .wrapper.profile-page .main-container h2 {
+    /*font-size: 2.2em*/
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .profile-page .social-panel .tweet-group iframe#twitter-widget-0 {
+        max-width: 88% !important
+    }
+
+    .employee-summary .employee-summary-left .employee-contact-details .button-container ul li.employee-social a {
+        /*font-size: 1.1em*/
+    }
+
+    .wrapper.profile-page .col-10 {
+        width: 33%
+    }
+
+    .wrapper.profile-page .main-container h2 {
+        /*font-size: 2em*/
+    }
+
+    .wrapper.profile-page .main-container .contact-links {
+        float: none;
+        width: 100%
+    }
+
+    .wrapper.profile-page .main-container .contact-links.social-fs {
+        padding-top: 5px;
+        width: 100%;
+        float: none;
+        display: block;
+        border-left: 0;
+        padding-left: 0
+    }
+
+    .wrapper.profile-page .twitter-component .social-panel .tweet-group iframe#twitter-widget-0 {
+        min-width: 0 !important
+    }
+
+    .wrapper.profile-page .employee-recommendation .featured-promo .article-image img,
+    .wrapper.profile-page .employee-recommendation .topic-promo-featured .article-image img {
+        display: none
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1024px) {
+    .employee-summary .employee-summary-left .employee-contact-details .button-container ul li.employee-social a {
+        margin: 0 .5em 0 0
+    }
+
+    .wrapper.profile-page .social-panel .tweet-group iframe#twitter-widget-0 {
+        min-width: 0 !important
+    }
+
+    .wrapper.profile-page .employee-recommendation .featured-promo .article-image,
+    .wrapper.profile-page .employee-recommendation .topic-promo-featured .article-image {
+        float: right;
+        width: 30%
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .contact-list ul .contact-list-item .list-item {
+        padding: 18px 15px
+    }
+
+    .contact-list ul .contact-list-item .list-item span.icon:before,
+    .contact-list ul .contact-list-item .list-item span.download-app-icon,
+    .contact-list ul .contact-list-item .list-item span.register-icon {
+        width: 32px;
+        height: 32px;
+        line-height: 34px;
+        /*font-size: 16px*/
+    }
+
+    .contact-list ul .contact-list-item .list-item span.download-app-icon:before,
+    .contact-list ul .contact-list-item .list-item span.register-icon:before {
+        width: 16px;
+        height: 16px;
+        left: 25%;
+        top: 25%
+    }
+}
+
+@media screen and (max-width:767px) {
+    .wrapper.profile-page .employee-profile-container h2.secondary-headline {
+        /*font-size: 1.8em*/
+    }
+
+    .wrapper.profile-page .employee-profile-container h2.secondary-headline span.role1 {
+        padding-right: .7em;
+        margin-right: .7em
+    }
+
+    .wrapper.profile-page .employee-recommendation .col-70 .featured-promo .description {
+        max-height: inherit
+    }
+
+    .employee-profile-panel .employee-profile-container {
+        width: 100%
+    }
+
+    .employee-profile-panel .employee-profile-container .employee-summary {
+        margin: 1em 0
+    }
+
+    .employee-profile-panel .employee-profile-container .employee-summary .employee-summary-left {
+        float: none;
+        width: 100%;
+        padding: 0
+    }
+
+    .employee-profile-panel .employee-profile-container .employee-summary .employee-summary-left .employee-contact-details .button-container ul li.employee-social a {
+        padding: .6em .7em .2em .7em
+    }
+
+    .employee-profile-panel .employee-profile-container .employee-summary .employee-summary-left .employee-contact-details a span {
+        display: none
+    }
+
+    .employee-profile-panel .employee-profile-container .employee-summary .employee-biography h4 {
+        /*font-size: 1.4em*/
+    }
+
+    .employee-profile-panel .employee-profile-container .employee-summary .employee-biography h5 {
+        /*font-size: 1.2em*/
+    }
+
+    .employee-profile-panel .employee-profile-container .employee-summary .employee-summary-right {
+        margin: 1.75em 0 0 0;
+        width: 100%
+    }
+
+    .employee-profile-panel .employee-profile-container .employee-summary h3.tertiary-headline {
+        margin: 1em 0 1em;
+        color: black
+    }
+
+    .employee-profile-panel .employee-profile-container .employee-summary .button-container a i {
+        margin: 0;
+        /*font-size: 1.4em*/
+    }
+
+    .employee-profile-panel .employee-profile-container h2.secondary-headline {
+        /*font-size: 1.8em;*/
+        margin-bottom: 0
+    }
+
+    .employee-profile-panel .employee-profile-container h2.secondary-headline span.role1.pipe {
+        padding-right: .5em;
+        margin-right: .5em
+    }
+
+    .employee-profile-panel .employee-profile-container h2.secondary-headline span.role2 {
+        padding-right: 0
+    }
+
+    .wrapper.profile-page .main-container {
+        padding-top: 15px
+    }
+
+    .wrapper.profile-page .employee-profile-container {
+        width: 98%
+    }
+
+    .wrapper.profile-page .twitter-component h3 {
+        /*font-size: 1.6em*/
+    }
+
+    .wrapper.profile-page .main-container h2 {
+        /*font-size: 2em*/
+    }
+
+    .wrapper.profile-page .contact-links {
+        line-height: 1.4em;
+        display: block;
+        float: none;
+        width: 100%
+    }
+
+    .wrapper.profile-page .contact-links .icon:before {
+        vertical-align: middle
+    }
+
+    .wrapper.profile-page .contact-links .icon.icon-email,
+    .wrapper.profile-page .contact-links .icon.icon-phone {
+        display: none
+    }
+
+    .wrapper.profile-page .contact-links.social-icons {
+        padding-top: 10px;
+        width: 100%;
+        float: none;
+        border-left: 0;
+        padding-left: 0
+    }
+
+    .wrapper.profile-page .contact-links li {
+        margin-right: 16px
+    }
+
+    .wrapper.profile-page .contact-links .icon-email+a {
+        font-weight: normal;
+        /*font-size: 1.2em*/
+    }
+
+    .wrapper.profile-page .main-col .profile-image,
+    .wrapper.profile-page .main-col .contact-list {
+        width: 100%
+    }
+
+    .wrapper.profile-page .main-col .employee-mobile-content {
+        display: block
+    }
+
+    .wrapper.profile-page .main-col .employee-mobile-content .profile-image {
+        width: 40%;
+        margin-right: 10px;
+        float: left
+    }
+
+    .wrapper.profile-page .main-col .profile-image img {
+        width: 100%
+    }
+
+    .wrapper.profile-page .contact-links-wrapper {
+        width: 55%;
+        word-break: break-all
+    }
+
+    :lang(ja) .twitter-component h3,
+    :lang(ja) .wrapper.profile-page .main-container h2 {
+        /*font-size: 1.6em*/
+    }
+
+    .employee-recommendation .featured-promo .article-image img,
+    .employee-recommendation .topic-promo-featured .article-image img {
+        display: none
+    }
+
+    .employee-profile-container {
+        width: 95%
+    }
+}
+
+html[dir='rtl'] .wrapper.profile-page .contact-links {
+    float: right
+}
+
+html[dir='rtl'] .wrapper.profile-page .contact-links li {
+    margin-left: 10px;
+    margin-right: 0
+}
+
+html[dir='rtl'] .wrapper.profile-page .contact-links .icon-email+a {
+    padding: 0 5px 0 0
+}
+
+html[dir='rtl'] .wrapper.profile-page .contact-links .telephone-btn {
+    padding-right: 5px;
+    direction: ltr
+}
+
+html[dir='rtl'] .wrapper.profile-page .contact-links.social-icons {
+    padding-left: 0;
+    padding-right: 15px;
+    border-left: 0;
+    border-right: 1px solid #d0d0ce
+}
+
+html[dir='rtl'] .wrapper.profile-page .employee-profile-container h2.secondary-headline span.role1 {
+    padding-right: 0;
+    margin-right: 0;
+    float: right;
+    border-left: 2px solid #53565a;
+    padding-left: 1em;
+    margin-left: 1em;
+    border-right: 0
+}
+
+html[dir='rtl'] .wrapper.profile-page .employee-profile-container h2.secondary-headline span.no-pipe {
+    border-left: 0
+}
+
+@media screen and (max-width:767px) {
+    html[dir='rtl'] .wrapper.profile-page .main-col .employee-mobile-content .profile-image {
+        margin-left: 10px;
+        margin-right: 0;
+        float: right
+    }
+
+    html[dir='rtl'] .wrapper.profile-page .contact-links.social-icons {
+        border-right: 0
+    }
+}
+
+.topic-page .tier {
+    margin-left: -15px;
+    margin-right: -15px;
+    box-sizing: border-box
+}
+
+.topic-page .tier * {
+    box-sizing: border-box
+}
+
+.topic-page .tier:before,
+.topic-page .tier:after {
+    content: " ";
+    display: table
+}
+
+.topic-page .tier:after {
+    clear: both
+}
+
+.topic-page .col-100 {
+    width: 100%
+}
+
+.topic-page .col-100,
+.topic-page .col-70,
+.topic-page .col-50,
+.topic-page .col-30 {
+    display: block;
+    position: relative;
+    min-height: 1px;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.topic-page .topic-services .tertiary-headline {
+    padding: 12px 20px;
+    background: #000;
+    color: #fff;
+    font-weight: 400;
+    /*font-size: 1.8em;*/
+    min-height: 50px;
+    box-sizing: border-box;
+    margin: 0
+}
+
+.tertiary-headline {
+    /*font-size: 1.8em;*/
+    color: #000;
+    font-weight: 700
+}
+
+.tertiary-headline {
+    /*font-size: 1.6em*/
+}
+
+.secondary-headline.white-title {
+    color: #fff
+}
+
+.primary-headline {
+    /*font-size: 2.8em*/
+}
+
+.employee-promo .tertiary-headline {
+    margin-bottom: .5em
+}
+
+.brightcovepodcast .podcast-content .custom-rte {
+    text-align: left
+}
+
+.main-container.contact-us-page .content.main .form-component .form-section .field-column .customrichtext .custom-rte {
+    padding-top: 2em;
+    padding-right: 2em
+}
+
+.custom-rte a:hover {
+    text-decoration: underline
+}
+
+.custom-rte p {
+    color: #000;
+    /*font-size: 1.4em;*/
+    font-weight: 400
+}
+
+.custom-rte li {
+    color: #000;
+    /*font-size: 1.4em;*/
+    font-weight: 400;
+    list-style-position: outside
+}
+
+.custom-rte li li {
+    /*font-size: 1em*/
+}
+
+.custom-rte blockquote {
+    color: #000;
+    /*font-size: 1.4em;*/
+    font-weight: 400;
+    margin: 1em 2.86em
+}
+
+.custom-rte ul,
+.custom-rte ol {
+    margin-left: 30px
+}
+
+.custom-rte ul li,
+.custom-rte ol li {
+    display: list-item;
+    list-style-type: disc
+}
+
+.custom-rte ul ul,
+.custom-rte ol ul,
+.custom-rte ul ol,
+.custom-rte ol ol {
+    margin-top: 1em
+}
+
+.custom-rte ol li {
+    list-style-type: decimal
+}
+
+.custom-rte .body-copy {
+    color: inherit;
+    font-family: inherit;
+    font: inherit;
+    line-height: inherit;
+    margin: inherit
+}
+
+.custom-rte ul,
+.custom-rte ol {
+    list-style-position: inside
+}
+
+.custom-rte table.rte-branded-table-styles {
+    border: 0;
+    margin-bottom: 1em;
+    width: 100%
+}
+
+.custom-rte table.rte-branded-table-styles tr {
+    border-top: 1px solid #d0d0ce
+}
+
+.custom-rte table.rte-branded-table-styles tr td {
+    border: 0;
+    /*font-size: 1.4em;*/
+    padding-left: 1.2em;
+    padding-top: 1em;
+    padding-bottom: 1em
+}
+
+.custom-rte table.rte-branded-table-styles tr:last-child {
+    border-bottom: 1px solid #d0d0ce
+}
+
+.custom-rte table.rte-branded-table-styles th {
+    background: #0076a8;
+    border: 0;
+    color: #fff;
+    /*font-size: 1.4em;*/
+    padding-bottom: 1.2em;
+    padding-left: 1em;
+    padding-top: 1.2em;
+    text-align: left;
+    font-weight: bold
+}
+
+.custom-rte .quotes {
+    display: block;
+    /*font-size: 1.285715em;*/
+    padding: 0 8% 0 9%;
+    position: relative
+}
+
+.custom-rte .quotes:before {
+    color: #81bc00;
+    content: "\f10d";
+    float: left;
+    font-family: 'Dcom-EDE' !important;
+    /*font-size: 2em;*/
+    margin-left: -11%;
+    margin-top: -7px;
+    speak: none
+}
+
+.custom-rte .quotes:after {
+    color: #81bc00;
+    content: "\f10e";
+    font-family: 'Dcom-EDE' !important;
+    /*font-size: 2em;*/
+    position: absolute;
+    right: 0;
+    speak: none;
+    top: -7px
+}
+
+.custom-rte ul li ul li,
+.custom-rte ol li ul li {
+    list-style-type: disc
+}
+
+.custom-rte ul li ol li,
+.custom-rte ol li ol li {
+    list-style-type: decimal
+}
+
+.custom-rte span.small-body-copy {
+    /*font-size: .79em*/
+}
+
+.custom-rte span.body-copy {
+    /*font-size: 1em*/
+}
+
+.custom-rte li li {
+    /*font-size: 1em*/
+}
+
+:lang(zh-Hant) .custom-rte p,
+:lang(zh-Hans) .custom-rte p,
+:lang(zh-Hant) .custom-rte li,
+:lang(zh-Hans) .custom-rte li,
+:lang(zh-Hant) .custom-rte blockquote,
+:lang(zh-Hans) .custom-rte blockquote {
+    /*font-size: 1.5em*/
+}
+
+:lang(zh-Hant) .custom-rte h4,
+:lang(zh-Hans) .custom-rte h4 {
+    line-height: 1.6em
+}
+
+:lang(zh-Hant) .custom-rte h5,
+:lang(zh-Hans) .custom-rte h5 {
+    /*font-size: 1.5em;*/
+    line-height: 1.6em
+}
+
+:lang(zh-Hant) .custom-rte li,
+:lang(zh-Hans) .custom-rte li {
+    margin: .5em 0 .5em 1.5em
+}
+
+:lang(zh-Hant) .custom-rte li li,
+:lang(zh-Hans) .custom-rte li li {
+    /*font-size: 1em;*/
+    margin: .5em 0 .5em 1.5em
+}
+
+:lang(zh-Hant) .custom-rte ul ul,
+:lang(zh-Hans) .custom-rte ul ul,
+:lang(zh-Hant) .custom-rte ol ul,
+:lang(zh-Hans) .custom-rte ol ul,
+:lang(zh-Hant) .custom-rte ul ol,
+:lang(zh-Hans) .custom-rte ul ol,
+:lang(zh-Hant) .custom-rte ol ol,
+:lang(zh-Hans) .custom-rte ol ol {
+    margin-top: 0
+}
+
+:lang(zh-Hant) .custom-rte .quotes,
+:lang(zh-Hans) .custom-rte .quotes {
+    line-height: 1.8em
+}
+
+:lang(zh-Hant) .custom-rte span.small-body-copy,
+:lang(zh-Hans) .custom-rte span.small-body-copy {
+    /*font-size: .86em*/
+}
+
+@media screen and (max-width:767px) {
+    .custom-rte table.rte-branded-table-styles tr td {
+        padding: 0 .4em 0 .4em
+    }
+
+    .custom-rte .quotes {
+        /*font-size: 1.145em;*/
+        padding: 0 8% 0 10%
+    }
+
+    .custom-rte .quotes:before {
+        margin-left: -16%
+    }
+}
+
+html[dir='rtl'] .custom-rte table.rte-branded-table-styles th {
+    text-align: right
+}
+
+html[dir='rtl'] .custom-rte li {
+    list-style-position: inherit
+}
+
+:lang(zh-hant) .employee-desc,
+:lang(zh-hans) .employee-desc {
+    /*font-size: 1.5em*/
+}
+
+.wrapper.html-fragment-page .main-container.html-fragment-page .content.main .share-bar.related-topics-disabled {
+    margin-top: 30px
+}
